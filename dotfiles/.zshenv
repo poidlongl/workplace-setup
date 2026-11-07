@@ -1,0 +1,1 @@
+WPCFG=~/projects/workplace-setup
