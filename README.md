@@ -20,5 +20,16 @@ git config --global user.name "Leo DIETMAIER"
 git config --global user.email "leo.dietmaier@r-software.at" 
 git config --global user.signingkey ~/.ssh/id_ed25519
 git config --global gpg.format ssh
+
+mkdir ~/projects
+cd ~/projects
+git clone git@github.com:poidlongl/workplace-setup.git
+cd workplace-setup 
+bash lndotfiles.sh
+
+
+# setup NVM - see: xhttps://github.com/nvm-sh/nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.41.0/install.sh | bash
+
 ```
 
